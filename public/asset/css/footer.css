@@ -1,0 +1,98 @@
+/* footer */
+ /* footer */
+ .lay5 {
+    background-color: #f7f7f7; /* Warna latar belakang */
+    padding: 30px 0;
+  }
+  .lay5{
+    background-color: rgba(248, 252, 250, 1);
+    height: 55vh;
+  }
+  .row_lay5{
+    width: 100%;
+  }
+  .title_List{
+    font-family: "Raleway", sans-serif;
+     font-size: 16px;
+    color:  rgb(0, 0, 0) ;
+  }
+  .parag_posision{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .parag_lay5{
+    color: #707070;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 192.857% */
+    letter-spacing: 1.12px;
+  }
+  .img_posision_lay5{
+    padding-left: 7px;
+  }
+  .List_1 {
+  color: #707070;
+  font-family: Raleway;
+  list-style-type: none !important;  /* Hapus simbol daftar */
+  }
+  .text-decoration-none{
+    color: #707070;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  }
+  .List_1 .list-footer {
+  margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda inginkan */
+  }
+    .copy_posision {
+      display: none; /* Sembunyikan elemen pada layar kecil */
+  }
+    .title_List {
+      font-family: "Raleway", sans-serif;
+      font-size: 19px;
+      color: rgb(0, 0, 0);
+      margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda inginkan */
+      padding: 0;
+    }
+  .lay5_posision{
+    height: 100%;
+  }
+
+  .img_lay5{
+    height: 34px;
+  }
+  .Copyright{
+    font-size: 12px;
+    color: rgba(112, 112, 112, 1);
+  }
+  ul,li{
+    color: rgba(112, 112, 112, 1);
+    font-size: 13px;
+    padding-top: 12px; /* Menambahkan jarak 10px di bawah setiap elemen <li> */
+    font-family: "Raleway", sans-serif;
+  }
+  .parag_posision{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+    /* image content slide */
+    .img_posision {
+
+      display: block; /* Menghilangkan jarak bawah yang mungkin muncul */
+      margin: 0 auto; /* Memusatkan gambar jika perlu */
+      width: 280px;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    @media only screen and (max-width: 600px) {
+      .parag_posision{
+       width: 100%;
+      }
+     }
