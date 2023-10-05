@@ -21,16 +21,16 @@ Route::get('/', function () {
 });
 
 Route::get('/program',  function (){
-    return view('content.page.program-page');
+    return view('content.page.program.program-page');
 });
 Route::get('/detail',  function (){
-    return view('content.page.detail-program');
+    return view('content.page.program.detail-program');
 });
 Route::get('/checkout',  function (){
-    return view('content.page.checkout-page');
+    return view('content.page.program.checkout-page');
 });
 Route::get('/update',  function (){
-    return view('content.page.update-page');
+    return view('content.page.update.update-page');
 });
 Route::get('/qurban',  function (){
     return view('content.page.qurban-page');
@@ -38,9 +38,18 @@ Route::get('/qurban',  function (){
 Route::get('/zakat',  function (){
     return view('content.page.zakat.pay-zakat-page');
 });
-Route::post('/kalkulator',  function (){
+Route::get('/kalkulator',  function (){
     return view('content.page.zakat.kalkulator-zakat');
 });
-Route::post('/konsultasi',  function (){
+Route::get('/konsultasi',  function (){
     return view('content.page.zakat.konsultasi-zakat');
+});
+Route::get('/login',  function (){
+    return view('content.page.login.login-page');
+});
+Route::get('/detail-update',  function (){
+    return view('content.page.update.detail-update');
+});
+Route::get('/dashboard',  function (){
+    return view('content.page.dashbord.donor-page');
 });

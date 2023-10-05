@@ -6,15 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/detail-page.css" />
-      <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-      <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ asset('asset/css/detail-program-page.css') }}" />
 </head>
 <body>
     <div class="bg-utama">
@@ -40,31 +32,7 @@
                        <path d="M39.5 37c.276 0 .5.224.5.5 0 .276-.224.5-.5.5-.062 0-28.938 0-29 0-.276 0-.5-.224-.5-.5 0-.276.224-.5.5-.5C10.562 37 39.438 37 39.5 37zM39.5 24.5c.276 0 .5.224.5.5 0 .276-.224.5-.5.5-.062 0-28.938 0-29 0-.276 0-.5-.224-.5-.5 0-.276.224-.5.5-.5C10.562 24.5 39.438 24.5 39.5 24.5zM39.5 12c.276 0 .5.224.5.5 0 .276-.224.5-.5.5-.062 0-28.938 0-29 0-.276 0-.5-.224-.5-.5 0-.276.224-.5.5-.5C10.562 12 39.438 12 39.5 12z"></path>
                        </svg>
                  </button>
-                 <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 4">
-                    <div class="w-100 d-flex justify-content-center">
-                       <ul class="navbar-nav">
-                          <li class="nav-item">
-                             <a class="nav-link fs-6 text-dark" href="index.html">Tentang</a>
-                          </li>
-                          <li class="nav-item">
-                             <a class="nav-link fs-6 text-dark" href="update.html">Update</a>
-                          </li>
-                          <li class="nav-item">
-                             <a class="nav-link fs-6 text-dark" href="program.html">Program</a>
-                          </li>
-                          <li class="nav-item">
-                             <a class="nav-link fs-6 text-dark" href="#">Zakat</a>
-                          </li>
-                          <li class="nav-item">
-                             <a class="nav-link fs-6 text-dark" href="#">Qurban</a>
-                          </li>
-                       </ul>
-                    </div>
-                    <form class=" form-btn-container d-flex justify-content-center">
-                       <a href="" class="btn-no-border px-1 py-2 pr-2">Login</a>
-                       <a href="#" class="btn btn-outline-info ">Register</a>
-                    </form>
-                 </div>
+                 @include('.content/component/navbar')
               </div>
            </nav>
         </div>
@@ -201,7 +169,7 @@
      <!-- button  -->
      <div class="container d-flex justify-content-center mt-5">
       <form class="form-btn-container d-flex justify-content-center">
-         <a href="checkout-page.html" class="btn text-light align-self-start" id="donate-button">Donasi Sekarang</a>
+         <a href="/checkout" class="btn text-light align-self-start" id="donate-button">Donasi Sekarang</a>
      </form>
      </div>
      <div class="container d-flex justify-content-center mt-5 ">
@@ -213,7 +181,7 @@
       <div class=" overflow-auto d-flex pl-3 py-5 w-100 ">
          <div class="col" >
             <div class="card " id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people1.png') }}" class="card-image p-2" alt="...">
                <div class="card-content p-2">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">John Birmingham</p>
@@ -223,7 +191,7 @@
            </div>
            <div class="col " >
             <div class="card " id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people2.png') }}" class="card-image p-2" alt="...">
                <div class="card-content  p-2 ">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">Jacob Jones</p>
@@ -233,7 +201,7 @@
            </div>
            <div class="col" >
             <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people3.png') }}" class="card-image p-2" alt="...">
                <div class="card-content p-2 ">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">Brooklyn Simmons</p>
@@ -243,7 +211,7 @@
            </div>
            <div class="col" >
             <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people4.png') }}" class="card-image p-2" alt="...">
                <div class="card-content p-2">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">Esther Howard</p>
@@ -253,7 +221,7 @@
            </div>
            <div class="col" >
             <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people-5.png') }}" class="card-image p-2" alt="...">
                <div class="card-content p-2">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">Devon Lane</p>
@@ -263,7 +231,7 @@
            </div>
            <div class="col" >
             <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="asset/card/orang1.jpg" class="card-image p-2" alt="...">
+                   <img src="{{ asset('asset/image/program/card/card-people6.png') }}" class="card-image p-2" alt="...">
                <div class="card-content p-2">
                  <p class="card-date w-100">16-07-2021 19:17:41</p>
                  <p class="card-name w-100">Robert Fox</p>
@@ -281,118 +249,6 @@
          <li class="page-item"><a class="page-link" href="#">2</a></li>
          <li class="page-item"><a class="page-link" href="#">3</a></li>
       </ul>
-   </div>
-</div>
-</div>
-<div class="lay5 h-100">
-<div class="container-xxl lay5_posision d-flex ">
-   <div
-      class="row d-flex align-items-center justify-content-center row_lay5 px-1"
-      >
-      <div class="col-md-6">
-         <div class="mb-3">
-            <a
-               class="navbar-brand img_posision_lay5"
-               href="#"
-               >
-            <img
-               src="asset/logo.png"
-               alt=""
-               class="img_lay5"
-               />
-            </a>
-         </div>
-         <div class="parag_posision ">
-            <p class="parag_lay5 w-100">
-               Agro Bina Alam Mandiri adalah yayasan yang
-               focus pada program sosial dan dakwah di
-               Indonesia.
-            </p>
-         </div>
-         <div class="copy_posision">
-            <span class="Copyright"
-               >© Copyright Yayasan Abam. All right
-            reserved</span
-               >
-         </div>
-      </div>
-      <div class="col mb-4 ">
-         <ul class="List_1">
-            <span class="title_List">Fasilitas</span>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >kalkulator Zakat</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Konsultasi</a
-                  >
-            </li>
-            <li>
-             .
-            </li>
-            <li>
-             .
-            </li>
-         </ul>
-      </div>
-      <div class="col mb-4">
-         <ul class="List_1">
-            <span class="title_List">Kategori</span>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Pendidikan</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Dakwah</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Wakaf</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Qurban</a
-                  >
-            </li>
-         </ul>
-      </div>
-      <div class="col mb-4">
-         <ul class="List_1">
-            <span class="title_List">Tentang Kami</span>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Profil</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >Kontak Kami</a
-                  >
-            </li>
-            <li class="list-footer">
-               <a href="" class="text-decoration-none"
-                  >FAQ</a
-                  >
-            </li>
-            <li class="list-footer ">
-               <a href="" class="text-decoration-none"
-                  >Bantuan</a
-                  >
-            </li>
-         </ul>
-      </div>
-      <div class="copy_posision2">
-         <span class="Copyright"
-            >© Copyright Yayasan Abam. All right
-         reserved</span
-            >
-      </div>
    </div>
 </div>
 </div>

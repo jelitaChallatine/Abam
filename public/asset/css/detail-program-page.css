@@ -197,7 +197,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
-padding-top: 12px;
 }
 .List_1 .list-footer {
 margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda inginkan */
@@ -223,80 +222,61 @@ margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda ingink
   font-size: 12px;
   color: rgba(112, 112, 112, 1);
 }
+ul,li{
+  color: rgba(112, 112, 112, 1);
+  font-size: 13px;
+  padding-top: 12px; /* Menambahkan jarak 10px di bawah setiap elemen <li> */
+  font-family: "Raleway", sans-serif;
+}
 .parag_posision{
   width: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
+/* card content */
+.card-image{
+width: 69px;
+height: 69px;
+flex-shrink: 0;
+border-radius: 69px;
+}
+
+#profile{
+border: none;
+border-radius: 12px;
+background: var(--LightGreenColor, #F8FCFA);
+}
+
+.card-date{
+color: var(--greyColor, #707070);
+font-family: Open Sans;
+font-size: 10px;
+font-style: normal;
+line-height: 10px; /* 240% */
+letter-spacing: 0.8px;
+opacity: 0.5;
+}
+.card-name{
+  color: var(--greyColor, #707070);
+font-family: Raleway;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.84px;
+}
+.besar-donasi{
+  color: var(--darkColor, #14183E);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
 @media only screen and (max-width: 600px) {
  .parag_posision{
   width: 100%;
  }
-}
-/* inputan */
-#custom-input::placeholder{
-    color: rgba(112, 112, 112, 0.50);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 175.7%; /* 28.112px */
-  }
-  #select-custom{
-    color: rgba(112, 112, 112, 0.50);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 175.7%; /* 28.112px */
-  }
-  #custom-input{
-    border-radius: 4px;
-border: 1px solid rgba(158, 158, 158, 0.35);
-background: var(--LightGreenColor, #F8FCFA);
-  }
-  #form-label{
-    color: #BCBFBD;
-
-/* paragraph */
-font-family: Raleway;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px; /* 158.824% */
-letter-spacing: 0.51px;
-  }
-  .form-label{
-    color: #000;
-font-family: Raleway;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: 27px; /* 158.824% */
-letter-spacing: 0.51px;
-  }
-.Captcha{
-  color: #000;
-font-family: Raleway;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: 27px; /* 158.824% */
-letter-spacing: 0.51px;
-}
-.checkbox{
-width: 24px;
-height: 24px;
-flex-shrink: 0;
-color: #D9DBDA;
-}
-.lupa-password{
-  color: var(--greenColor, #5AACA8);
-font-family: Raleway;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: 27px; /* 158.824% */
-letter-spacing: 0.51px;
-text-decoration: none;
 }

@@ -1,27 +1,14 @@
+@extends('.content/index')
+
+@section('konten')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/kalkulator-zakat.css" />
-    <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200&display=swap" rel="stylesheet">
-    <!-- <style>
-      .custom-input {
-    border-radius: 4px;
-    border: 2px solid rgba(158, 158, 158, 0.35);
-    background: #F8FCFA;
+    <link rel="stylesheet" href="{{ asset('asset/css/konsultasi-zakat.css ') }}" />
 
-}
-    </style> -->
 </head>
 <body>
     <div class="bg-utama">
@@ -65,7 +52,7 @@
          <div class="col md-6  w-100  ">
      <div class="container-xxl    ">
 
-      <img src="assets/img/konsul-zakat.png" class="w-100 mt-5" alt="">
+      <img src="{{ asset('asset/image/zakat/kalkulator-zakat.png') }}" class="w-100 mt-5" alt="">
 
      </div>
      <div class="container display-5">
@@ -127,6 +114,7 @@
       </div>
      </div>
      {{-- footer --}}
-     @include('.content/component/footer')
 </body>
 </html>
+
+@endsection
