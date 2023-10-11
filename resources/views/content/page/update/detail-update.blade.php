@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('asset/css/detail-update-page.css') }}" />
+    <link rel="stylesheet" href="{{ asset('asset/css/update/detail-update-page.css') }}" />
 
 </head>
 <body>

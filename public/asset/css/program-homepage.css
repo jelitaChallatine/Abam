@@ -1,0 +1,187 @@
+.title-program{
+    color: #14183E;
+font-family: Lora;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px; /* 137.143% */
+letter-spacing: 0.7px;
+}
+.berbagi{
+    color: #5AACA8;
+font-family: Lora;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.7px;
+}
+
+.bagan-program{
+    background: #f8fcfaee;;
+}
+
+.program {
+    color: #14183E;
+    font-family: Lora;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 113.208% */
+    text-transform: capitalize;
+  }
+
+  .style-parag {
+      color: rgba(112, 112, 112, 1);
+      font-family: "Raleway";
+      margin-top: 10px;
+  }
+
+  .title-2 {
+    color: #14183E;
+
+    /* H1 */
+    font-family: Lora;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 137.143% */
+    letter-spacing: 1.05px;
+  }
+
+  /* layer 2 */
+  .berbagi {
+    color: #5AACA8;
+
+    /* H1 */
+    font-family: Lora;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1.05px;
+  }
+  .rinc{
+      color: #FF7468;
+      font-family: Open Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.638px;
+
+  }
+
+  .bagan-info {
+      font-family: "Raleway";
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(255, 116, 104, 1);
+      border-radius: 6px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  .info-posision {
+      transform: translateY(-50%);
+  }
+  /* button info */
+  #donate-button {
+    display: inline-flex;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #fb6c5f;
+    transition: background-color 0.3s ease; /* Adding a smooth transition for the background color */
+  }
+  .title-bagan {
+    color: #14183E;
+    /* H2 */
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30.686px; /* 131.579% */
+    letter-spacing: 0.7px;
+  }
+
+  .prog-bg {
+      background-color: rgba(240, 240, 240, 1);
+      height: 5px;
+      width: 100%;
+      flex-shrink: 0;
+
+  }
+
+  .progres {
+      background-color: rgba(90, 172, 168, 1);
+      width: 49%;
+      justify-content: space-between;
+  }
+
+  .register {
+    color: var(--greenColor, #5AACA8);
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 200% */
+    letter-spacing: 2.1px;
+  }
+  .progres {
+      background-color: rgba(90, 172, 168, 1);
+      width: 49%;
+      height: 5px;
+  }
+
+  .posision-persen {
+      position: relative;
+      left: 98%;
+      transform: translateY(-70%);
+
+  }
+  /* .mb-2{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  } */
+/* CSS untuk efek shadow saat gambar dihover */
+.image-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+.image-container:hover  {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), -4px 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan shadow di bawah dan kiri */
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(50, 47, 47, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay:hover {
+    cursor: pointer;
+}
+.konten{
+    background: white;
+}
+.img_posision {
+    display: block; /* Menghilangkan jarak bawah yang mungkin muncul */
+    margin: 0 auto; /* Memusatkan gambar jika perlu */
+    width: 300px;
+  }

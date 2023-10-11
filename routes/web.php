@@ -53,3 +53,22 @@ Route::get('/detail-update',  function (){
 Route::get('/dashboard',  function (){
     return view('content.page.dashbord.donor-page');
 });
+
+Route::get('/register',  function (){
+    return view('content.page.login.register-page');
+});
+Route::get('/donor',  function (){
+    return view('content.page.dashbord.donor-page');
+});
+Route::get('/ganti-password',  function (){
+    return view('content.page.dashbord.ganti-password');
+});
+Route::get('/histori-donasi',  function (){
+    return view('content.page.dashbord.histori-donasi');
+});
+Route::get('/histori-qurban',  function (){
+    return view('content.page.dashbord.histori-qurban');
+});
+Route::get('/histori-zakat',  function (){
+    return view('content.page.dashbord.histori-zakat');
+});

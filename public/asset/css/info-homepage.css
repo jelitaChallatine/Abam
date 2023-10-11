@@ -1,0 +1,56 @@
+.main_title{
+    color: #14183E;
+    font-family: Lora;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.text-1{
+color: #FF7468;
+font-family: Lora;
+}
+.text-2{
+color: #5AACA8;
+font-family: Lora;
+
+}
+.parag_2{
+    color: #707070;
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 158.824% */
+letter-spacing: 0.51px;
+
+}
+.data-1
+{
+
+    display: flex;
+    border-bottom: 1px solid rgba(90, 172, 168, 0.50);
+}
+.respon > div:first-child {
+    border-right: 1px solid rgba(90, 172, 168, 0.50);/* Garis pembatas di tengah */
+}
+.title_info{
+    color: #5AACA8;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.92px;
+}
+.parag_info{
+    color: #707070;
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.51px;
+}

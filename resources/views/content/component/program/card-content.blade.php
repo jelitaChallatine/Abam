@@ -1,14 +1,21 @@
 <div class="content d-flex overflow-auto w-100 gap-4 mb-5">
                         <!-- content 1 -->
                         <div class="konten w-100">
-                           <div class="mb-2 d-flex flex-column align-items-center px-1"style="border: 1px solid rgba(0, 0, 0, 0.084); padding: 10%;">
-                            <div class="container">
-                                <img src="{{ asset('asset/image/program/qurban.png') }}" class=" img_posision" alt="" />
-                            </div>
+                           <div class=" d-flex flex-column align-items-center px-5"style="border: 1px solid rgba(0, 0, 0, 0.084); padding: 5%; border-top :none;">
+                                <div class="image-container">
+                                    <a href="/detail">
+                                        <img src="{{ asset('asset/image/program/qurban.png') }}" class="img_posision" alt="" />
+                                        <div class="overlay"></div>
+                                    </a>
+
+                                </div>
                               <div class="info-posision">
-                                 <a href="/detail" class="btn text-light align-self-start" id="donate-button">Qurban</a>                         </div>
+                                <div class="btn text-light align-self-start" id="donate-button">
+                                    QURBAN
+                                </div>
+                                </div>
                               <div class="container">
-                                  <div class="px-2 mt-4">
+                                  <div class="px-2">
                                  <span class="title-bagan">Donasi Operasional Qurban untuk Negeri</span>
                               </div>
                               </div>
@@ -49,6 +56,9 @@
                                        <b class="rinc">Rp 3.021.000</b>
                                     </div>
                                  </div>
+                              </div>
+                              <div class="button pt-5">
+                                <a href="/detail" class="btn btn-outline-info"> Donasi sekarang</a>
                               </div>
                            </div>
                         </div>

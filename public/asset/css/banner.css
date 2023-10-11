@@ -1,0 +1,75 @@
+.banner{
+    background: #F8FCFA;
+}
+.foto{
+    border-radius: 10px;
+}
+
+/* paragraf */
+.rezeki{
+    color: #FF7468;
+}
+.berpahala{
+    color: #5AACA8;
+font-family: Lora;
+text-transform: capitalize;
+}
+.title_1{
+    color: #14183E;
+    font-family: Lora;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px; /* 113.208% */
+    text-transform: capitalize;
+}
+.parag_1{
+color: #707070;
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 141.176% */
+letter-spacing: 1.7px;
+}
+.with-paragraphs::before {
+    content: "\A";
+    white-space: pre;
+}
+.donate-now{
+    border-radius: 10px;
+    text-align: center;
+    width: 169px;
+    height: 60px;
+    line-height: 40px;
+    color: #FFF5F4;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.6px;
+
+}
+/* Media mengatur judul banner */
+@media (max-width: 600px) {
+    .bg-mobile {
+        background-color: #5aaca8;
+        padding: 18px;
+        }
+
+    .title_1 {
+        font-size: 29px; /* Ukuran font saat layar kurang dari atau sama dengan 767px */
+        font-weight: 400; /* Mengubah bobot font sesuai keinginan Anda */
+        line-height: normal; /* Tinggi baris tetap normal */
+        text-transform: none; /* Tidak ada transformasi teks */
+        padding-top: 5px; /* Padding atas sesuai keinginan Anda */
+        color: #14183E; /* Warna teks sesuai keinginan Anda */
+        font-family: Lora; /* Mengubah jenis font sesuai keinginan Anda */
+    }
+
+    .rezeki,
+    .berpahala {
+        margin-top: 0; /* Menghilangkan jarak atas antara elemen-elemen ini */
+    }
+}
+

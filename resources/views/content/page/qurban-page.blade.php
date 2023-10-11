@@ -100,18 +100,17 @@
   </div>
 
      <div class="container-xxl">
+        <img src="{{ asset('asset/image/update/card-4.png') }}" class="img-fluid w-75 mt-5" alt="">
+    </div>
 
-      <img src="asset/img crausel/Rectangle 27.png" class="w-100 mt-5" alt="">
+    <div class="container display-4">
+        <div class="text p-5">
+            <p class="paragraph-qurban small">
+                Kami mengundang Anda untuk bergabung dalam kampanye qurban kami. Dengan berqurban, Anda tidak hanya memenuhi kewajiban agama, tetapi juga memberikan harapan kepada mereka yang membutuhkan. Setiap sumbangan Anda akan membantu menyediakan makanan bagi yang kurang beruntung dan membantu mengurangi kesenjangan sosial. Mari bersama-sama berbagi berkah, menjalankan ibadah dengan tulus, dan membuka pintu kebahagiaan bagi mereka yang membutuhkan. Bergabunglah dengan kami dalam kampanye "Qurban: Berbagi Berkah, Mengisi Hati" dan rasakan kebahagiaan dalam berqurban.
+            </p>
+        </div>
+    </div>
 
-     </div>
-     <div class="container display-5">
-      <div class="text p-4">
-         <p >
-            Kami mengundang Anda untuk bergabung dalam kampanye qurban kami. Dengan berqurban, Anda tidak hanya memenuhi kewajiban agama, tetapi juga memberikan harapan kepada mereka yang membutuhkan. Setiap sumbangan Anda akan membantu menyediakan makanan bagi yang kurang beruntung dan membantu mengurangi kesenjangan sosial. Mari bersama-sama berbagi berkah, menjalankan ibadah dengan tulus, dan membuka pintu kebahagiaan bagi mereka yang membutuhkan. Bergabunglah dengan kami dalam kampanye "Qurban: Berbagi Berkah, Mengisi Hati" dan rasakan kebahagiaan dalam berqurban.
-         </p>
-      </div>
-
-     </div>
 
 
          </div>

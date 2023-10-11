@@ -1,4 +1,8 @@
-<div class="col">
+<link rel="stylesheet" href="{{ asset('asset/css/banner.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Raleway:wght@100&display=swap" rel="stylesheet">
+<div class="col banner">
     <div  class="container-xxl d-flex flex-column bagan_1 ">
         <div class="container"  >
         <img
@@ -92,14 +96,15 @@
 
         <div class="row lay1 d-flex mb-5 h-75 ">
             <div
-                class="col d-flex pb-5 flex-column justify-content-center align-items-start w-100"
+                class="col d-flex pb-5 flex-column justify-content-center align-items-start w-100 "
             >
-                <h1 class="font-weight-bold mb-2 title_1">
+            <div class="container">
+                <h1 class="font-weight-bold mb-2 title_1 display-5 ">
                     Berbagi
                     <b
                         class="rezeki"
                         >Rezeki</b
-                    >, bahagia dan
+                    >, Bahagia dan
                     <b class="berpahala"
                         style="
 
@@ -107,18 +112,20 @@
                         >Berpahala</b
                     >.
                 </h1>
-                <p class="parag_1 text-secondary mb-2">
-                    Pendidikan yang baik adalah kunci suksesnya
+                <p class="parag_1 text-secondary  with-paragraphs">
+                    Pendidikan yang baik adalah kunci suksesnya <br>
                     kemerdekaan di Indonesia.
                 </p>
-                <div class="w-75">
+                <div class="w-75 pt-5">
                     <a
                         href=""
-                        class="btn text-light align-self-start"
+                        class="btn text-light btn-lg align-self-start item-center donate-now"
                         style="background-color: rgba(255, 116, 104, 1)"
                         >Donate Now</a
                     >
-                </div>
+</div>
+
+            </div>
             </div>
                 <img
                     src="asset/Untitled (1).png"
@@ -127,9 +134,7 @@
                     class=" bg_abam_posision position-absolute"
                 />
 
-            <div
-                class="col-md-5      d-flex flex-column float-md-center mb-5 ms-md-5  bg-mobile w-100 justify-content-center"
-            >
+            <div class="col-md-5 d-flex flex-column float-md-center mb-5 ms-md-5 bg-mobile w-100 justify-content-center my-4">
                 <img
                     src="{{ asset('asset/image/banner-photo.png') }}"
                     alt=""

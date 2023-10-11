@@ -7,7 +7,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link rel="stylesheet" href="{{ asset('asset/css/zakat.css') }}" />
+   <link rel="stylesheet" href="{{ asset('asset/css/zakat/zakat.css') }}" />
 </head>
 <body>
     <div class="bg-utama">
@@ -66,18 +66,18 @@
          <div class="col md-6  w-100">
                <div class="container w-100 p-3  d-flex align-items-center justify-content-center ">
                   <form  class=" w-100">
-                    <div class="mb-4">
-                        <label for="nama" class="form-label">Kategori Zakat</label>
-                        <select class="form-select form-control" id="custom-input" aria-label="Default select example">
-                          <option
-                          selected>
-                          Pilih kategori Zakat
-                          </option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                    </div>
+                        <div class="mb-4">
+                            <label for="nama" class="form-label">Kategori Zakat</label>
+                            <select class="form-select form-control" id="custom-input" aria-label="Default select example">
+                            <option
+                            selected>
+                            Pilih kategori Zakat
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>
+                        </div>
                       <div class="mb-4">
                           <label for="nama" class="form-label">Nominal</label>
                           <input type="text" class="form-control " id="custom-input" placeholder="Masukkan nominal donasi">

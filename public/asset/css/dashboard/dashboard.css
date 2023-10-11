@@ -1,0 +1,296 @@
+.bg-utama {
+    background-color: rgba(248, 252, 250, 1);
+}
+  .container-xxl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+.centered-text {
+  width: ;
+} */
+
+.title {
+    color: #14183E;
+    font-family: Lora;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: capitalize;
+
+}
+
+/* content */
+
+.list{
+  width: 70%;
+  font-size: 16px;
+  color: var(--darkColor, #14183E);
+
+/* paragraph */
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 158.82*/
+}
+
+/* button donasi sekarang */
+#donate-button {
+  display: inline-flex;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fb6c5f;
+  transition: background-color 0.3s ease; /* Adding a smooth transition for the background color */
+}
+#donate-button:hover {
+  color: white !important;
+  background:rgba(90, 172, 168, 0.50);
+
+}
+.text-bottom{
+  color: #14183E;
+text-align: center;
+font-family: Raleway;
+font-size: 23.258px;
+font-style: normal;
+font-weight: 600;
+line-height: 30.602px; /* 131.579% */
+letter-spacing: 0.698px;
+}
+
+/* footer */
+.parag_posision{
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.profile-name{
+  color: var(--whiteColor, #F8FCFA);
+
+  /* H3 */
+  font-family: Raleway;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.14px;
+}
+#profile{
+  border-radius: 12px;
+  background: var(--whiteColor, #F8FCFA);
+}
+
+.card-name{
+  /* H3 */
+  color: #707070;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.nomor-telepon{
+  color: var(--whiteColor, #F8FCFA);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1.28px;
+}
+
+@media only screen and (max-width: 600px) {
+ .parag_posision{
+  width: 100%;
+ }
+}
+
+/* content left */
+.left-content{
+            display: flex;
+            padding: 30px 10px;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-shrink: 0;
+            border-radius: 20px 0px 0px 20px;
+            background: var(--darkColor, #14183E);
+
+}
+.right-content{
+  width: 892px;
+height: 1090px;
+border-radius: 0px 20px 20px 0px;
+background: var(--LightGreenColor, #F8FCFA);
+}
+.menu-dashboard li{
+color: var(--whiteColor, #F8FCFA);
+text-decoration: none !important;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+letter-spacing: 1.28px;
+list-style-type: none;
+align-items: flex-start;
+}
+.menu-dashboard li .text-decoration-none{
+  color: var(--redColor, #ffffff);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 168.75% */
+letter-spacing: 0.48px;
+text-transform: capitalize;
+}
+.Title-content-right{
+  color: var(--darkColor, #14183E);
+  font-family: Raleway;
+  font-size: 23.321px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30.686px; /* 131.579% */
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+}
+#custom-input{
+  width: 466px;
+height: 56px;
+  border-radius: 4px;
+  border: 2px solid rgba(158, 158, 158, 0.35);
+  background: #F8FCFA;
+}
+#custom-input::placeholder{
+  color: rgba(112, 112, 112, 0.50);
+
+  /* paragraph */
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+}
+#textarea{
+  width: 466px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+border: 2px solid #D9DBDA;
+background: #F8FCFA;
+}
+#textarea::placeholder{
+  color: #BCBFBD;
+
+/* paragraph */
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 158.824% */
+letter-spacing: 0.51px;
+}
+#select-custom{
+  border-radius: 4px;
+  border: 2px solid rgba(158, 158, 158, 0.35);
+  background: #F8FCFA;;
+}
+.menu-dashboard li{
+  color: var(--whiteColor, #F8FCFA);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 168.75% */
+letter-spacing: 0.48px;
+text-transform: capitalize;
+}
+.menu-dashboard li .text-decoration-none:hover{
+  color: var(--redColor, #FF7468);
+}
+.selected-menu {
+  color: var(--redColor, #FF7468);
+}
+/* Style pagination  */
+.pagination-content{
+  width: 1500px;
+  margin-top: 10%;
+
+}
+.page-item a.page-link {
+  text-decoration: none;
+  color: var(--Grey, #697694);
+  text-align: center;
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none; /* Tidak ada border */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 40px;
+  background-color: transparent;
+}
+
+/* Hover state for pagination link */
+.page-item a.page-link:hover {
+  border-radius: 5px;
+  background: rgba(90, 172, 168, 0.50);
+  color: white;
+}
+.pending{
+  color: #F6C344;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.besar-donasi{
+  color: var(--darkColor, #14183E);
+font-family: Open Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.26px;
+}
+.sukses{
+  color: var(--greenColor, #5AACA8);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2px;
+}
+.gagal{
+  color: var(--redColor, #FF7468);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.form-label{
+  color: #000;
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px; /* 158.824% */
+letter-spacing: 0.51px;
+}

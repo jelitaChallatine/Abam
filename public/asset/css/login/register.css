@@ -1,0 +1,305 @@
+.bg-utama {
+    background-color: rgba(248, 252, 250, 1);
+  }
+  .container-xxl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  /*
+  .centered-text {
+  width: ;
+  } */
+
+  .title {
+    color: #14183E;
+    font-family: Lora;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: capitalize;
+
+  }
+
+
+  /* progres */
+  .prog-bg {
+  border-radius: 5px;
+  border: 1px solid rgba(90, 172, 168, 0.50);
+  background: #FFF;
+  }
+  .progres {
+  background-color: rgba(90, 172, 168, 1);
+  width: 49%;
+  height: 5px;
+  justify-content: space-between;
+
+  }
+  .rinc{
+  color: #FF7468;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.638p16
+
+  }
+
+  .posision-persen {
+  position: relative;
+  left: 98%;
+  transform: translateY(-70%);
+
+  }
+  /* content */
+  .img-position{
+  display: block; /* Menghilangkan jarak bawah yang mungkin muncul */
+  margin: 0 auto; /* Memusatkan gambar jika perlu */;
+  padding: 20px;
+  }
+  p{
+  width: 70%;
+  font-size: 16px;
+  color: var(--darkColor, #14183E);
+
+  /* paragraph */
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+  }
+  .text-bold{
+  color: var(--darkColor, #14183E);
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.51px;
+  }
+  .list{
+  width: 70%;
+  font-size: 16px;
+  color: var(--darkColor, #14183E);
+
+  /* paragraph */
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.82*/
+  }
+
+  /* button donasi sekarang */
+  #donate-button {
+  display: inline-flex;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fb6c5f;
+  transition: background-color 0.3s ease; /* Adding a smooth transition for the background color */
+  }
+  #donate-button:hover {
+  color: white !important;
+  background:rgba(90, 172, 168, 0.50);
+
+  }
+  .text-bottom{
+  color: #14183E;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 23.258px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30.602px; /* 131.579% */
+  letter-spacing: 0.698px;
+  }
+
+  /* Style pagination  */
+  .pagination-content{
+  width: 1440px;
+  margin-top: 10%;
+  }
+  .page-item a.page-link {
+  text-decoration: none;
+  color: var(--Grey, #697694);
+  text-align: center;
+  font-family: Cabin;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none; /* Tidak ada border */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 40px;
+  }
+
+  /* Hover state for pagination link */
+  .page-item a.page-link:hover {
+  border-radius: 5px;
+  background: rgba(90, 172, 168, 0.50);
+  color: white;
+  }
+
+
+  /* footer */
+  .lay5 {
+  background-color: #f7f7f7; /* Warna latar belakang */
+  padding: 30px 0;
+  }
+  .lay5{
+  background-color: rgba(248, 252, 250, 1);
+  height: 55vh;
+  }
+  .row_lay5{
+  width: 100%;
+  }
+  .title_List{
+  font-family: "Raleway", sans-serif;
+   font-size: 16px;
+  color:  rgb(0, 0, 0) ;
+  }
+  .parag_posision{
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  .parag_lay5{
+  color: #707070;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 192.857% */
+  letter-spacing: 1.12px;
+  }
+  .img_posision_lay5{
+  padding-left: 7px;
+  }
+  .List_1 {
+  color: #707070;
+  font-family: Raleway;
+  list-style-type: none !important;  /* Hapus simbol daftar */
+  }
+  .text-decoration-none{
+  color: #707070;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding-top: 12px;
+  }
+  .List_1 .list-footer {
+  margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda inginkan */
+  }
+  .copy_posision {
+    display: none; /* Sembunyikan elemen pada layar kecil */
+  }
+  .title_List {
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px; /* Sesuaikan nilai ini sesuai dengan jarak yang Anda inginkan */
+    padding: 0;
+  }
+  .lay5_posision{
+  height: 100%;
+  }
+
+  .img_lay5{
+  height: 34px;
+  }
+  .Copyright{
+  font-size: 12px;
+  color: rgba(112, 112, 112, 1);
+  }
+  .parag_posision{
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+  .parag_posision{
+  width: 100%;
+  }
+  }
+  /* inputan */
+  #custom-input::placeholder{
+    color: rgba(112, 112, 112, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175.7%; /* 28.112px */
+  }
+  #select-custom{
+    color: rgba(112, 112, 112, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175.7%; /* 28.112px */
+  }
+  #custom-input{
+    border-radius: 4px;
+  border: 1px solid rgba(158, 158, 158, 0.35);
+  background: var(--LightGreenColor, #F8FCFA);
+  }
+  #form-label{
+    color: #BCBFBD;
+
+  /* paragraph */
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+  }
+  .form-label{
+    color: #000;
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+  }
+  .Captcha{
+  color: #000;
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+  }
+  .checkbox{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #D9DBDA;
+  }
+  .syarat-ketentuan{
+  color: var(--greenColor, #5AACA8);
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.51px;
+  text-decoration: none;
+  }
+  .content-photo{
+  width: auto;
+  }

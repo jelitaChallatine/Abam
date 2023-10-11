@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('asset/css/login.css') }}" />
+    <link rel="stylesheet" href="{{ asset('asset/css/login/register.css') }}" />
 </head>
 <body>
     <div class="bg-utama">
@@ -49,7 +49,7 @@
          <div class="col md-6  w-100  ">
             <div class="container-fluid content-photo">
 
-             <img src="asset/img/regist.png"  class="w-100 mt-5" alt="">
+             <img src="{{ asset('asset/image/login/regist.png') }}"  class="w-100 mt-5" alt="">
 
             </div>
             <div class="container display-5">
@@ -80,18 +80,21 @@
                     </div>
                     <div class="mb-2">
                         <p class="Captcha">Captcha</p>
-                        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault" id="form-label">
-                           Saya telah membaca dan menyetujui <a href="" class="syarat-ketentuan">Syarat dan Ketentuan</a>  yang berlaku
-                        </label>
+                        <div class="form-check">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label ml-2" for="flexCheckDefault" id="form-label">
+                               Saya telah membaca dan menyetujui <a href="" class="syarat-ketentuan"> Syarat dan Ketentuan</a>  yang berlaku
+                            </label>
+                        </div>
                     </div>
                     <div class="mb-2">
                         <p class="Captcha">Captcha</p>
-                        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault" id="form-label">
-                          i am human
-                        </label>
-
+                        <div class="form-check">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label ml-2" for="flexCheckDefault" id="form-label">
+                               i am human
+                            </label>
+                        </div>
                     </div>
                   </form>
               </div>

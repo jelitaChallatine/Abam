@@ -7,7 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('asset/css/konsultasi-zakat.css ') }}" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('asset/css/zakat/konsultasi-zakat.css') }}" />
 
 </head>
 <body>
@@ -69,17 +70,18 @@
          <div class="col md-6  w-100">
                <div class="container w-100 p-3  d-flex align-items-center justify-content-center ">
                   <form  class=" w-100">
-                    <div class="mb-4">
+                    <div class="mb-4 select-wrapper">
                         <label for="nama" class="form-label">Kategori Zakat</label>
-                        <select class="form-select form-control" id="custom-input" aria-label="Default select example">
-                          <option
-                          selected>
-                          </option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
+                        <div class="select-container">
+                            <select class="form-select form-control" id="custom-input" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
                     </div>
+
                     <div class="mb-4">
                         <label for="nama" class="form-label">Harga Beras</label>
                         <select class="form-select form-control" id="custom-input" aria-label="">

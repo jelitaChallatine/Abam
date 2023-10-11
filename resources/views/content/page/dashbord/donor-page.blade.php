@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/donor-page.css" />
+    <link rel="stylesheet" href="{{ asset('asset/css/dashboard/dashboard.css') }}" />
 </head>
 <body>
     <div class="bg-utama">
@@ -44,45 +44,12 @@
         </div>
      </div>
      <!-- dashboard content -->
-     <div class="container p-5">
-      <div class=" overflow-auto d-flex  h-100">
-          <div class="col-md-2 left-content">
-              <div class="container-fluid mb-4">
-                <div class=" w-100 d-flex justify-content-center">
-                   <img src="assets/img/profile-ahmad-imran.png" class="card-image " alt="...">
-                </div>
-             <div class="card-content ">
-               <p class="profile-name w-100 pt-4 text-center">Ahmad Imran</p>
-               <p class="nomor-telepon  text-center">08123456789</p>
-             </div>
-           </div>
-           <div class=" container menu-dashboard">
-             <li class="mb-4">
-                <a href="/donor" class="text-decoration-none">Profile</a>
-             </li>
-             <li class="mb-4">
-                <a href="#" class="text-decoration-none">Tabungan Qurban</a>
-             </li>
-             <li class="mb-4">
-                <a href="/histori-donasi" class="text-decoration-none">Histori Donasi</a>
-             </li>
-             <li class="mb-4">
-                <a href="/histori-zakat" class="text-decoration-none">Histori Zakat</a>
-             </li>
-             <li class="mb-4">
-                <a href="/histori-qurban" class="text-decoration-none">Histori Qurban</a>
-             </li>
-             <li class="mb-4">
-                <a href="#" class="text-decoration-none">Tunaikan Zakat</a>
-             </li>
-             <li class="mb-4">
-                <a href="/ganti-password" class="text-decoration-none">Ganti Password</a>
-             </li>
-        </div>
-           </div>
-            <div class="col-md-10 right-content" style="border-radius: 0px 20px 20px 0px;" >
+     <div class="container-xxl p-5" >
+      <div class=" overflow-auto d-flex w-100 h-100">
+          @include('content.component.dashboard.menu-left')
+            <div class="col-md-9 right-content" style="border-radius: 0px 20px 20px 0px;" >
                 <div class="container  ">
-                    <div class="container align-items-center p-5">
+                    <div class="container align-items-center p-5 h-75 justify-content-center">
                         <p class="Title-content-right">
                             informasi akun
                         </p>
