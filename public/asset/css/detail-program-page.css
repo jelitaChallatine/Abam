@@ -1,0 +1,128 @@
+.paraf{
+    color: var(--darkColor, #14183E);
+
+/* paragraph */
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 158.824% */
+letter-spacing: 0.51px;
+}
+.text-bold{
+color: var(--darkColor, #14183E);
+
+/* paragraph */
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px; /* 158.824% */
+letter-spacing: 0.51px;
+}
+
+/* progress bar */
+/* progres */
+.prog-bg {
+    border-radius: 5px;
+    border: 1px solid rgba(90, 172, 168, 0.50);
+    background: #FFF;
+  }
+  .progres {
+    background-color: rgba(90, 172, 168, 1);
+    width: 49%;
+    height: 5px;
+    justify-content: space-between;
+
+  }
+  .rinc{
+    color: #FF7468;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.638p16
+
+  }
+
+  .posision-persen {
+    position: relative;
+    left: 98%;
+    transform: translateY(-70%);
+
+  }
+
+
+
+
+  /* card */
+  #profile{
+    border: none;
+    border-radius: 12px;
+    background: var(--LightGreenColor, #F8FCFA);
+    }
+    .card-image{
+        width: 69px;
+        height: 69px;
+        flex-shrink: 0;
+        border-radius: 69px;
+        }
+
+
+    .card-date{
+    color: var(--greyColor, #707070);
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    line-height: 10px; /* 240% */
+    letter-spacing: 0.8px;
+    opacity: 0.5;
+    }
+    .card-name{
+      color: var(--greyColor, #707070);
+    font-family: Raleway;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    }
+    .besar-donasi{
+      color: var(--darkColor, #14183E);
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.96px;
+    }
+
+
+    #donate-button {
+        display: inline-flex;
+        letter-spacing: 2px;
+        padding: 12px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #fb6c5f;
+        transition: background-color 0.3s ease; /* Adding a smooth transition for the background color */
+      }
+      #donate-button:hover {
+        color: white !important;
+        background:rgba(90, 172, 168, 0.50);
+
+      }
+      ul.list li {
+        color: var(--darkColor, #14183E);
+
+        /* paragraph */
+        font-family: Raleway;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 158.824% */
+        letter-spacing: 0.51px;
+    }

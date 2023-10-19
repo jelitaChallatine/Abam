@@ -7,7 +7,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link rel="stylesheet" href="{{ asset('asset/css/zakat/zakat.css') }}" />
+   <link rel="stylesheet" href="{{ asset('asset/image/zakat/kalkulator-zakat.png') }}" />
 </head>
 <body>
     <div class="bg-utama">
@@ -46,28 +46,12 @@
      </div>
      <div class="container w-100 ">
       <div class="row w-100 p-3">
-         <div class="col md-6  w-100  ">
-     <div class="container-xxl    ">
-
-      <img src="{{ asset('asset/image/zakat/pay-zakat.png') }}" class="w-100 mt-5" alt="">
-
-     </div>
-     <div class="container display-5">
-      <div class="text p-4">
-         <p >
-            Zakat itu penting! Mari tunaikan kewajiban kita. Dengan zakat, kita bantu yang membutuhkan. Berkah akan datang dalam lipatan rezeki. Jadi, zakatlah sekarang! #BerkahZakat.
-         </p>
-      </div>
-
-     </div>
-
-
-         </div>
+        @include('content.component.molecules.zakat.pay.left')
          <div class="col md-6  w-100">
                <div class="container w-100 p-3  d-flex align-items-center justify-content-center ">
                   <form  class=" w-100">
                         <div class="mb-4">
-                            <label for="nama" class="form-label">Kategori Zakat</label>
+                            <label for="nama" class="form-label select-wrapper">Kategori Zakat</label>
                             <select class="form-select form-control" id="custom-input" aria-label="Default select example">
                             <option
                             selected>

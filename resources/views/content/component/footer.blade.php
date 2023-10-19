@@ -1,4 +1,4 @@
-<div class="lay5 h-100">
+<div class="lay5 h-100" id="footer">
     <div class="container-xxl lay5_posision d-flex ">
        <div
           class="row d-flex align-items-center justify-content-center row_lay5 px-1"
@@ -10,7 +10,7 @@
                    href="#"
                    >
                 <img
-                   src="asset/logo.png"
+                   src="{{ asset('asset/image/logo.png') }}"
                    alt=""
                    class="img_lay5"
                    />
@@ -110,3 +110,10 @@
        </div>
     </div>
     </div>
+@if(isset($hideFooter) && $hideFooter)
+<style>
+    #footer {
+        display: none;
+    }
+</style>
+@endif

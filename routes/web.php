@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('content.page.homepage', [
         'navbar' => 'light',
@@ -71,4 +72,12 @@ Route::get('/histori-qurban',  function (){
 });
 Route::get('/histori-zakat',  function (){
     return view('content.page.dashbord.histori-zakat');
+});
+
+
+
+
+
+Route::get('/coba', function () {
+ return view('content.component.organism.dashboard.donor-page.menu-right');
 });

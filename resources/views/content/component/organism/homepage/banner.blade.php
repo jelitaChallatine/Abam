@@ -64,14 +64,14 @@
                                 <li class="nav-item">
                                     <a
                                         class="nav-link fs-6 text-dark"
-                                        href="Zakat/pay-zakat-page.html"
+                                        href="/zakat"
                                         >Zakat</a
                                     >
                                 </li>
                                 <li class="nav-item">
                                     <a
                                         class="nav-link fs-6 text-dark"
-                                        href="qurban-page.html"
+                                        href="/qurban"
                                         >Qurban</a
                                     >
                                 </li>

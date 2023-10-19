@@ -98,18 +98,20 @@ letter-spacing: 0.698px;
   line-height: 175.7%; /* 28.112px */
 }
 /* image */
-.image-content{
+/* .image-content{
     width: 466px;
 height: 316px;
 flex-shrink: 0;
-}
+} */
 .text{
     /* paragraph */
 font-family: Raleway;
-font-size: 17px;
+font-size: 15px;
 font-style: normal;
-line-height: 27px; /* 158.824% */
-letter-spacing: 0.51px;
+line-height: 24px; /* 158.824% */
+letter-spacing: 0.20px;
+margin: 10px;
+
 }
 .selengkapnya {
   text-decoration: none;
@@ -147,10 +149,40 @@ background: #F8FCFA;
     line-height: 175.7%; /* 28.112px */
     border-radius: 4px;
     border: 2px solid rgba(158, 158, 158, 0.35);
-    background: #F8FCFA;
+    background-color: #F8FCFA;
   }
 .textarea #custom-input{
 width: 320px;
 height: 112px;
 flex-shrink: 0;
+}
+
+/* CSS untuk tampilan desktop */
+.data{
+    width: 80%;
+}
+.d-flex {
+    flex-direction: row;
+}
+
+.h-50 {
+    height: auto;
+}
+.image-content{
+    width: 75%;
+}
+/* Media query untuk tampilan mobile (lebar layar kurang dari 768px) */
+@media (max-width: 768px) {
+.data{
+    width: 100%;
+}
+.progres-bar{
+    width: 100%;
+}
+.prog-bg{
+    width: 100%;
+}
+.image-content{
+    width: 100%;
+}
 }

@@ -4,7 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Mulish:wght@300&family=Open+Sans:wght@500&family=Raleway:wght@100&display=swap" rel="stylesheet">
         <link
             href="https://fonts.cdnfonts.com/css/raleway-5"
             rel="stylesheet"
@@ -35,9 +37,12 @@
                 @yield('konten')
             </section>
         </div>
-        <section>
-            @include('.content/component/footer')
-        </section>
+
+    @if(!isset($hideFooter) || !$hideFooter)
+    <footer>
+        @include('.content/component/footer')
+    </footer>
+    @endif
     </body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -67,3 +72,4 @@
             });
         });
     </script>
+

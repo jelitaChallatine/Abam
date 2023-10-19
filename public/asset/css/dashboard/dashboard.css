@@ -108,7 +108,7 @@ letter-spacing: 0.698px;
   letter-spacing: 1.28px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
  .parag_posision{
   width: 100%;
  }
@@ -125,6 +125,7 @@ letter-spacing: 0.698px;
             background: var(--darkColor, #14183E);
 
 }
+
 .right-content{
   width: 892px;
 height: 1090px;
@@ -221,34 +222,7 @@ text-transform: capitalize;
 .selected-menu {
   color: var(--redColor, #FF7468);
 }
-/* Style pagination  */
-.pagination-content{
-  width: 1500px;
-  margin-top: 10%;
 
-}
-.page-item a.page-link {
-  text-decoration: none;
-  color: var(--Grey, #697694);
-  text-align: center;
-  font-family: Cabin;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  border: none; /* Tidak ada border */
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-right: 40px;
-  background-color: transparent;
-}
-
-/* Hover state for pagination link */
-.page-item a.page-link:hover {
-  border-radius: 5px;
-  background: rgba(90, 172, 168, 0.50);
-  color: white;
-}
 .pending{
   color: #F6C344;
 font-family: Raleway;

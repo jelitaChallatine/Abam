@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('asset/css/program/detail-program-page.css') }}" />
+    {{-- <link rel="stylesheet" href="{{ asset('asset/css/program/detail-program-page.css') }}" /> --}}
+    <link rel="stylesheet" href="{{ asset('asset/css/detail-program-page.css') }}">
 </head>
 <body>
     <div class="bg-utama">
@@ -45,7 +46,7 @@
      </div>
 
      <div class=" container px-1 pt-3">
-        <div class="container d-flex justify-content-between align-items-end py-3 px-6 w-75">
+        <div class="container d-flex justify-content-between align-items-end px-6 w-75">
         <div class="d-flex flex-column align-items-start ">
            <div>
               <span class="title_rinc">Terkumpul</span>
@@ -63,7 +64,7 @@
            </div>
         </div>
      </div>
-        <div class=" py-1 px-6 ">
+        <div class=" py-4 px-6 ">
          <div class="container w-75">
          <div class="prog-bg w-100 " >
            <div class="progres ">
@@ -81,90 +82,10 @@
 
      </div>
      </div>
-     <div class="container pt-5">
-                <img src="asset/img crausel/coba.jpg" class="w-100" alt="">
+     <div class="container-fluid d-flex w-75 py-4b justify-content-center align-items-center">
+                <img src="{{ asset('asset/image/program/kesehatan.png') }}" class="align-items-center justift-content-center w-75" alt="">
      </div>
-     <div class="container pt-5 ">
-         <div class="paraf d-flex justify-content-center">
-            <p>
-               Kesejahteraan sosial adalah komitmen bersama yang harus kita semua jaga.
-               Di Jawa Barat, ada ribuan dhuafa yang membutuhkan dukungan dan perhatian kita.
-               Untuk memberikan kontribusi positif kepada masyarakat yang memerlukan,
-               kami mengumumkan kampanye sosial "Sunat Masal untuk 1000 Dhuafa Jawa Barat."
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p class="text-bold">
-               Mengapa Sunat Masal?
-            </p>
-         </div>
-         <div class="paraf d-flex  justify-content-center">
-            <p>
-               Sunat adalah tindakan medis yang memiliki manfaat kesehatan yang besar. Selain itu, sunat juga memiliki nilai agama yang penting bagi banyak keluarga di Jawa Barat. Namun, tidak semua keluarga mampu membayar biaya sunat bagi anak-anak mereka. Inilah mengapa kami ingin menjalankan kampanye ini untuk membantu mereka yang membutuhkan.
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p class="text-bold mb-1">
-               Tujuan Kampanye
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-               <ul class="list">
-                  <li>
-                     Memberikan Kesehatan: Sunat memiliki manfaat kesehatan yang terbukti, seperti mengurangi risiko infeksi dan penyakit tertentu.
-                  </li>
-                  <li>
-                     Mengurangi Beban Keluarga: Dengan menyediakan sunat gratis, kami berharap dapat mengurangi beban finansial keluarga yang kurang mampu.
-                  </li>
-                  <li>
-                     Memenuhi Kewajiban Agama: Kampanye ini juga bertujuan untuk membantu keluarga yang ingin memenuhi kewajiban agama dengan menyediakan sunat secara gratis.
-                  </li>
-               </ul>
-         </div>
-            <div class="paraf d-flex justify-content-center">
-            <p class="text-bold mb-1">
-               Bagaimana Anda Dapat Berkontribusi?
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p>
-               Anda juga dapat menjadi bagian dari kampanye ini:
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center" >
-            <ul class="list">
-               <li>
-                  <span class="text-bold">Donasi</span> :
-                  Setiap sumbangan Anda akan membantu kami mencapai target sunat masal untuk 1000 dhuafa di Jawa Barat.
-               </li>
-               <li>
-                  <span class="text-bold">Sumbangan Barang</span>:
-                  Selain sumbangan uang, kami juga menerima sumbangan barang seperti alat medis dan perlengkapan sunat.
-               </li>
-               <li>
-                  <span class="text-bold">Sukarelawan</span>:
-                  Jika Anda memiliki keterampilan medis atau ingin menjadi sukarelawan dalam proses sunat masal, silakan bergabung.
-               </li>
-            </ul>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p class="text-bold">
-               Bersama-sama, Kita Bisa Membuat Perbedaan
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p>
-               Kami percaya bahwa dengan kolaborasi dan dukungan dari masyarakat, kita dapat mencapai tujuan kami untuk memberikan sunat masal kepada 1000 dhuafa di Jawa Barat. Sunat bukan hanya tentang aspek medis, tetapi juga tentang memberikan harapan dan kebahagiaan kepada keluarga yang memerlukannya.
-               Mari bersama-sama menjadi bagian dari perubahan positif dalam komunitas kita. Dukung kampanye "Sunat Masal untuk 1000 Dhuafa Jawa Barat" dan bantu kami memberikan kesehatan dan kebahagiaan kepada mereka yang membutuhkan.
-               Untuk informasi lebih lanjut tentang bagaimana Anda dapat berkontribusi atau bergabung sebagai sukarelawan, hubungi kami di [kontak kami].
-            </p>
-         </div>
-         <div class="paraf d-flex justify-content-center">
-            <p class="text-bold pt-2">
-               Bersama Kita Bisa Mewujudkan Perubahan Positif!
-            </p>
-         </div>
-     </div>
+     @include('content.component.organism.program.description-detail-page')
 
      <!-- button  -->
      <div class="container d-flex justify-content-center mt-5">
@@ -177,71 +98,7 @@
             Sahabat dermawan  yang mendukung program ini
          </p>
      </div>
-     <div class="container-xxl w-100 d-flex">
-      <div class=" overflow-auto d-flex pl-3 py-5 w-100 ">
-         <div class="col" >
-            <div class="card " id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people1.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content p-2">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">John Birmingham</p>
-                 <p class="besar-donasi w-100">Rp. 50.000,-</p>
-               </div>
-             </div>
-           </div>
-           <div class="col " >
-            <div class="card " id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people2.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content  p-2 ">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">Jacob Jones</p>
-                 <p class="besar-donasi w-100">Rp. 50.000,-</p>
-               </div>
-             </div>
-           </div>
-           <div class="col" >
-            <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people3.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content p-2 ">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">Brooklyn Simmons</p>
-                 <p class="besar-donasi w-100">Rp. 100.000,-</p>
-               </div>
-             </div>
-           </div>
-           <div class="col" >
-            <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people4.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content p-2">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">Esther Howard</p>
-                 <p class="besar-donasi w-100">Rp. 500.000,-</p>
-               </div>
-             </div>
-           </div>
-           <div class="col" >
-            <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people-5.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content p-2">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">Devon Lane</p>
-                 <p class="besar-donasi w-100">Rp. 1.000.000,-</p>
-               </div>
-             </div>
-           </div>
-           <div class="col" >
-            <div class="card" id="profile" style="width: 160px; height: 180px;">
-                   <img src="{{ asset('asset/image/program/card/card-people6.png') }}" class="card-image p-2" alt="...">
-               <div class="card-content p-2">
-                 <p class="card-date w-100">16-07-2021 19:17:41</p>
-                 <p class="card-name w-100">Robert Fox</p>
-                 <p class="besar-donasi w-100">Rp.400.000,-</p>
-               </div>
-             </div>
-           </div>
-
-        </div>
-      </div>
+     @include('content.component.organism.program.card-detail-program')
      <!-- pagination -->
      <div class="pagination-content container mt-1 mb-5 ">
       <ul class="pagination justify-content-center">

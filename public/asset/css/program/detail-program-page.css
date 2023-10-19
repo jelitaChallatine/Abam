@@ -234,13 +234,7 @@ ul,li{
   padding-right: 5px;
 }
 /* card content */
-.card-image{
-width: 69px;
-height: 69px;
-flex-shrink: 0;
-border-radius: 69px;
-}
-
+cc
 #profile{
 border: none;
 border-radius: 12px;

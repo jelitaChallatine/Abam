@@ -176,3 +176,33 @@
                 .navbar-brand LogoNav {
                   margin-left: 10px; /* Atur margin kiri sejauh 10px (atau sesuai dengan kebutuhan Anda) */
                 }
+/* pagination */
+
+/* Style pagination  */
+.pagination-content{
+    width: 1500px;
+    margin-top: 10%;
+
+  }
+  .page-item a.page-link {
+    text-decoration: none;
+    color: var(--Grey, #697694);
+    text-align: center;
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none; /* Tidak ada border */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 40px;
+    background-color: transparent;
+  }
+
+  /* Hover state for pagination link */
+  .page-item a.page-link:hover {
+    border-radius: 5px;
+    background: rgba(90, 172, 168, 0.50);
+    color: white;
+  }

@@ -311,14 +311,7 @@
                   </div>
                   <!-- Navigation buttons -->
                </div>
-            </div>
-            <div class="pagination-content container mt-1 mb-5 ">
-               <ul class="pagination justify-content-center">
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-               </ul>
-            </div>
+            </div>  
          </div>
       </div>
       </div>

@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('asset/css/login/login.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Mulish:wght@300&family=Open+Sans:wght@500&family=Raleway:wght@100&display=swap"
+rel="stylesheet">
 </head>
 <body>
     <div class="bg-utama">
@@ -49,13 +53,14 @@
          <div class="col md-6  w-100  ">
      <div class="container-fluid content-photo">
 
-      <img src="{{ asset('asset/image/login/login.png') }}"  class="w-100 mt-5" alt="">
+      <img src="{{ asset('asset/image/login/login.png') }}"  class="w-100 mt-2" alt="">
 
      </div>
-     <div class="container display-5">
-      <div class="text p-4">
+     <div class="container-fluid w-100 display-5">
+      <div class="text">
          <p >
-            Akses informasi penting, update terbaru, dan manfaat eksklusif. Jangan lewatkan kesempatan, login sekarang! #AksesMudah
+            Akses informasi penting, update terbaru, dan manfaat eksklusif.
+            Jangan lewatkan kesempatan, login sekarang! #AksesMudah
          </p>
       </div>
 
@@ -63,35 +68,7 @@
 
 
          </div>
-         <div class="col md-6  w-100">
-               <div class="container w-100 p-3  d-flex align-items-center justify-content-center ">
-                  <form  class=" w-100">
-                      <div class="mb-4">
-                          <label for="nama" class="form-label">Username Or Email</label>
-                          <input type="text" class="form-control " id="custom-input" placeholder="masukan email atau username">
-                      </div>
-                      <div class="mb-4">
-                        <label for="nama" class="form-label">Password</label>
-                        <input type="text" class="form-control " id="custom-input" placeholder="masukan password anda">
-                    </div>
-                    <div class="mb-2">
-                        <p class="Captcha">Captcha</p>
-                        <div class="form-check">
-                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label ml-2" for="flexCheckDefault" id="form-label">
-                              i am human 
-                            </label>
-                        </div>
-                    </div>
-                  </form>
-              </div>
-              <div class="button">
-               <form class="form-btn-container d-flex justify-content-start">
-                  <a href="/dashboard" class="btn text-light align-self-start" id="donate-button"> Login</a>
-              </form>
-              <a href="#" class="lupa-password">Lupa Password?</a>
-              </div>
-         </div>
+         @include('content.component.organism.login.login-form')
       </div>
      </div>
 </body>

@@ -53,7 +53,7 @@
          </div>
       </div>
       <div class="h-100 w-100">
-      <div class="container d-flex flex-column">
+      <div class="container-fluid w-100 d-flex flex-column">
          <div class="posi">
             <div class="row">
                <div class="col d-flex flex-column btn_posision">
@@ -62,18 +62,25 @@
             </div>
          </div>
          <!-- isi konten slide -->
-         <div class="container mt-2">
+         <div class="container-fluid mt-2 mb-5">
             <div id="myCarousel" class="carousel slide d-flex" data-ride="carousel">
                <div class="carousel-inner">
                   <!-- Slide 1  -->
                   <div class="carousel-item active">
-                     @include('content.component.program.card-content')
+                    <div class="container-fluid pb-4">
+                        @include('content.component.organism.program.card-content')
+                    </div>
                      {{-- slide 2 --}}
                      <div class="carousel-item active">
-                        @include('content.component.program.card-content')
+                        <div class="container-fluid pb-4">
+                            @include('content.component.organism.program.card-content')
+                        </div>
                         {{-- slide 3 --}}
                         <div class="carousel-item active">
-                            @include('content.component.program.card-content')
+                            <div class="container-fluid pb-4">
+                             @include('content.component.organism.program.card-content')
+                            </div>
+
                            <!-- end slide 3 -->
                         </div>
                      </div>
@@ -81,13 +88,7 @@
                   <!-- Navigation buttons -->
                </div>
             </div>
-            <div class="pagination-content container mt-1 mb-5 ">
-               <ul class="pagination justify-content-center">
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-               </ul>
-            </div>
+
          </div>
       </div>
    </body>

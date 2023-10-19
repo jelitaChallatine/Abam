@@ -41,15 +41,15 @@
               </div>
            </nav>
         </div>
-        <div class="container py-3 px-5 pt-5">
+        <div class="container py-3 px-5 pt-3    ">
             <div class="centered-text d-flex justify-content-center "   >
                 <p class="title display-5 w-75 text-center">Kalkulator Zakat</p>
             </div>
         </div>
 
      </div>
-     <div class="container w-100 ">
-      <div class="row w-100 p-3">
+     <div class="container w-100   ">
+        <div class="row w-100 p-3">
          <div class="col md-6  w-100  ">
      <div class="container-xxl    ">
 
@@ -70,18 +70,17 @@
          <div class="col md-6  w-100">
                <div class="container w-100 p-3  d-flex align-items-center justify-content-center ">
                   <form  class=" w-100">
-                    <div class="mb-4 select-wrapper">
+                    <div class="mb-4">
                         <label for="nama" class="form-label">Kategori Zakat</label>
-                        <div class="select-container">
-                            <select class="form-select form-control" id="custom-input" aria-label="Default select example">
-                                <option selected></option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
+                        <select class="form-select form-control" id="custom-input" aria-label="Default select example">
+                          <option
+                          selected>
+                          </option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
                     </div>
-
                     <div class="mb-4">
                         <label for="nama" class="form-label">Harga Beras</label>
                         <select class="form-select form-control" id="custom-input" aria-label="">
@@ -114,6 +113,10 @@
               </div>
          </div>
       </div>
+      {{-- <div class="row w-100 ">
+        @include('content.component.molecules.zakat.kalkulator.content-left')
+         @include('content.component.molecules.zakat.kalkulator.content-right')
+      </div> --}}
      </div>
      {{-- footer --}}
 </body>

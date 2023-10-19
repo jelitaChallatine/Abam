@@ -10,11 +10,6 @@ letter-spacing: 0.7px;
 .berbagi{
     color: #5AACA8;
 font-family: Lora;
-font-size: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: 48px;
-letter-spacing: 0.7px;
 }
 
 .bagan-program{
@@ -49,18 +44,7 @@ letter-spacing: 0.7px;
     letter-spacing: 1.05px;
   }
 
-  /* layer 2 */
-  .berbagi {
-    color: #5AACA8;
 
-    /* H1 */
-    font-family: Lora;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 1.05px;
-  }
   .rinc{
       color: #FF7468;
       font-family: Open Sans;
@@ -179,9 +163,39 @@ letter-spacing: 0.7px;
 }
 .konten{
     background: white;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    border-top:none;
 }
 .img_posision {
     display: block; /* Menghilangkan jarak bawah yang mungkin muncul */
     margin: 0 auto; /* Memusatkan gambar jika perlu */
-    width: 300px;
+
   }
+/* Gaya CSS default untuk card di layar desktop */
+
+
+/* Media query untuk tampilan mobile (misalnya, layar dengan lebar maksimal 768px) */
+@media screen and (max-width: 768px) {
+    .program-page {
+        max-width: 100%;
+    }
+    .konten {
+        height: auto; /* Biarkan gambar menyesuaikan tinggi sesuai lebar */
+    }
+    .carousel-buttons {
+        display: none;
+      }
+}
+@media screen and (min-width: 768px) {
+    .program-page{
+        max-width: 70%;
+    }
+    .konten {
+        height: auto; /* Biarkan gambar menyesuaikan tinggi sesuai lebar */
+    }
+    .img_posision{
+       width: 300px;
+    }
+
+}
+/* Menghilangkan dekorasi list (dot) */

@@ -46,7 +46,7 @@
 
      </div>
      <div class="container pt-5">
-                <img src="asset/img crausel/coba.jpg" class="w-100" alt="">
+                <img src="{{ asset('asset/image/update/card-1.png') }}" class="w-100" alt="">
      </div>
      <div class="container pt-5 ">
          <div class="paraf d-flex justify-content-center">
@@ -121,13 +121,6 @@
      </div>
 
      <!-- pagination -->
-     <div class="pagination-content container mt- mb-5 ">
-      <ul class="pagination justify-content-center">
-         <li class="page-item"><a class="page-link" href="#">1</a></li>
-         <li class="page-item"><a class="page-link" href="#">2</a></li>
-         <li class="page-item"><a class="page-link" href="#">3</a></li>
-      </ul>
-   </div>
 </div>
 </div>
 </body>

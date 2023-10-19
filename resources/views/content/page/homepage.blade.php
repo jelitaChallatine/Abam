@@ -11,12 +11,15 @@
 </head>
 <body>
 {{-- @include('content.component.navbar') --}}
-@include('content.component.homepage.banner')
-<div class="container">
-    @include('content.component.homepage.info')
+@include('content.component.organism.homepage.banner')
+<div class="container-fluid py-5" >
+    @include('content.component.organism.homepage.info')
 </div>
-    @include('content.component.homepage.program')
-    @include('content.component.homepage.update')
+    @include('content.component.organism.homepage.program')
+    <div class="container-fluid py-5">
+        @include('content.component.organism.homepage.update')
+    </div>
+
 
 </body>
 </html>

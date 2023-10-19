@@ -54,3 +54,35 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.51px;
 }
+/* Atur tampilan untuk perangkat mobile */
+@media (max-width: 767px) {
+    /* Kolom untuk Desktop */
+    .col-lg-6 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Kolom untuk Mobile */
+    .bagan1 {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Seluruh elemen dengan kelas title_info */
+    .title_info {
+        font-size: 20px; /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    }
+
+    /* Seluruh elemen dengan kelas parag_info */
+    .parag_info {
+        font-size: 14px; /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+    }
+}
+
+/* Atur tampilan untuk perangkat desktop */
+@media (min-width: 768px) {
+    /* Kolom untuk Mobile */
+    .bagan1 {
+        display: none; /* Sembunyikan kolom untuk perangkat desktop */
+    }
+}

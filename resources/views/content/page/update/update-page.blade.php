@@ -53,7 +53,7 @@
             <span class="h1 title-2">Update <span class="berbagi">terbaru</span> hari ini?</span>
          </div>
       </div>
-      @include('content.component.update.card-update')
+      @include('content.component.organism.update.card-update')
    </body>
 </html>
 

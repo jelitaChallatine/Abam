@@ -1,7 +1,7 @@
 <div class="row w-100">
             <nav class="navbar navbar-expand-lg bg-transparent">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/home">
+                    <a class="navbar-brand" href="/">
                         <img src="{{ asset('asset/image/logo.png') }}" height="25" alt="" />
                     </a>
                     <button
@@ -27,7 +27,7 @@
                                 <li class="nav-item">
                                     <a
                                         class="nav-link fs-6 text-dark"
-                                        href="#"
+                                        href=""
                                         >Tentang</a
                                     >
                                 </li>
@@ -61,18 +61,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <form class="d-flex justify-content-center">
-                            <a
-                                href="/login"
-                                class="btn-no-border px-1 py-2 pr-2 "
-                                >Login</a
-                            >
-                            <a
-                                href="/register"
-                                class="btn btn-outline-info"
-                                >Register</a
-                            >
-                        </form>
+                        @include('content.component.molecules.dashboard.button-login')
                     </div>
                 </div>
             </nav>
