@@ -311,7 +311,7 @@
                   </div>
                   <!-- Navigation buttons -->
                </div>
-            </div>  
+            </div>
          </div>
       </div>
       </div>

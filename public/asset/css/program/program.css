@@ -189,6 +189,10 @@ font-family: Lora;
     .carousel-buttons {
         display: none;
       }
+      .img_posision{
+        width: 200px;
+     }
+
 }
 @media screen and (min-width: 768px) {
     .program-page{
@@ -198,7 +202,7 @@ font-family: Lora;
         height: auto; /* Biarkan gambar menyesuaikan tinggi sesuai lebar */
     }
     .img_posision{
-       width: 300px;
+       width: 280px;
     }
 
 }

@@ -1,4 +1,4 @@
-div class="container-xxl p-5 ">
+<div class="container-xxl p-5 ">
         <div class=" overflow-auto d-flex w-100 h-100">
             @include('content.component.organism.dashboard.menu-left')
             <div class="col-md-9 right-content" style="border-radius: 0px 20px 20px 0px;" >

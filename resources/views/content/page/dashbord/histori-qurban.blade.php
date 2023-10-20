@@ -16,7 +16,7 @@
      <div class="container-fluid align-items-center justify-content-center bg-success w-100">
         <div class=" container-fluid w-100 bg-dark overflow-auto d-flex ">
             <div class="row">
-
+                @include('content.component.organism.dashboard.donor-page.menu-left')
             </div>
             @include('content.component.organism.dashboard.menu-left')
             <div class="col-md-10 right-content" style="border-radius: 0px 20px 20px 0px;" >

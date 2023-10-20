@@ -42,12 +42,13 @@ window.addEventListener('resize', changeDesignBasedOnScreenSize);
 
 
      <!-- dashboard content -->
-     <div class="container-fluid w-100  " id="desktop-design" >
+     <div class="container-fluid w-100" id="desktop-design" >
         @include('content.component.organism.dashboard.donor-page.menu-right')
      </div>
 
      <div class="mobile" id="mobile-design" >
-        @include('content.page.dashbord.mobile.donor-page')
+        {{-- @include('content.page.dashbord.mobile.donor-page.menu-right') --}}
+        @include('content.page.dashbord.mobile.donor-page.menu-right')
      </div>
 
      @php
